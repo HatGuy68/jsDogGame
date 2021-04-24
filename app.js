@@ -1,4 +1,4 @@
-let playerState = 'fall';
+let playerState = 'run';
 const dropdown = document.getElementById("animations");
 dropdown.addEventListener('change', (event) => {
     playerState = event.target.value;
