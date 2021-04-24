@@ -5,11 +5,22 @@
 }
 
 #canvas1 {
-    border: 3px solid black;
     width: 600px;
     height: 600px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.controls {
+    margin: 10px;
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.controls, select, option {
+    font-size: 25px;
 }
